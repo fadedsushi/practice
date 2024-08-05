@@ -18,7 +18,7 @@
             font-size: 2.5em;
             color: #ff6347;
             margin: 20px 0;
-            animation: bounce 1s infinite;
+            animation: bounce 2s infinite;
         }
 
         h2 {
@@ -77,10 +77,10 @@
                 transform: translateY(0);
             }
             40% {
-                transform: translateY(-30px);
+                transform: translateY(-20px);
             }
             60% {
-                transform: translateY(-15px);
+                transform: translateY(-10px);
             }
         }
 
@@ -94,6 +94,12 @@
             100% {
                 background-position: 0% 0%;
             }
+        }
+
+        footer {
+            margin: 20px 0;
+            font-size: 1em;
+            color: #4682b4;
         }
     </style>
 </head>
